@@ -4,10 +4,10 @@ import PrimaryButton from "./primaryButton";
 
 const Header = () => {
   return (
-    <nav className="p-4 flex justify-between items-center backdrop-blur-2xl rounded-2xl">
+    <nav className="px-24 py-2 flex justify-between items-center backdrop-blur-2xl rounded-2xl">
       <div className="flex gap-2 items-center ">
         <div>
-          <Image src={logo} alt="qlyplink_logo" className="w-20" />
+          <Image src={logo} alt="qlyplink_logo" className="w-14" />
         </div>
         <h2 className="h3-semibold ">Qlyp Link</h2>
       </div>
